@@ -1,0 +1,648 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background: linear-gradient(#FFDE59, #BBBBBB);
+}
+
+/* encabezado de pagina */
+header{
+    background-color: #BBBBBB;
+    padding: 30px 0;
+}
+.menu{
+    align-items: center;
+    width: 85%;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Logo y nombre en encabezado */
+.img_logo{
+    height: 45px;
+}
+.nombre_menu{
+    display: inline-flex;
+    align-items: center;
+    top: 0;
+    right: 0;
+}
+
+/* Lista de navegacion en encabezado*/
+.lista_menu{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+nav li{
+    display: inline-flex;
+    margin: 0 0 0 15px;
+}
+nav b{
+    margin-top: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav b:hover{
+    color: #FF5F00;
+    text-decoration: underline;
+}
+
+/* seccion presentación */
+.caja_titulo{
+    background: #FFDE59;
+    align-items: center;
+    width: 85%;
+    height: 450px;
+    position: relative;
+    margin: 0 auto;
+    padding: 50px 0 50px 0 ;
+}
+.titulo_bio{
+    width: 60%;
+    font-size: 45px;
+    font-weight: bold;
+    margin: 0 0 40px 40px;
+    padding: 30px 0 0 0;
+}
+.subtitulo_bio{
+    width: 55%;
+    font-size: 20px;
+    margin: 40px;
+}
+.nav_accesos_redes{
+    width: 55%;
+    margin: 10px;
+}
+nav c:hover{
+    font-weight: bold;
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.accesos_a_redes{
+    display: inline-flex;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+    width: 60%;
+}
+.img_perfil{
+    position: absolute;
+    right: 3%;
+    border-radius: 120px;
+}
+
+/* seccion sobre mi */
+.caja_sobre_mi{
+    background: #BBBBBB;
+    align-items: center;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    padding: 30px 0 60px 0 ;
+}
+.sobre_mi{
+    width: 60%;
+    padding: 50px;
+}
+.titulo_sobre_mi{
+    width: 60%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 30px 0;
+}
+p1{
+    width: 70%;
+    font-size: 20px;
+}
+/* seccion skill */
+.caja_skill{
+    background: #FFDE59;
+    align-items: center;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 0 40px 0 ;    
+}
+.titulo_skill{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+    margin: 10px;
+}
+.skill_box{
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    height: 90px;
+    vertical-align: top;
+    margin: 10px 15px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+.skill_line{
+    text-align: center;
+}
+
+/* seccion hobbies */
+.caja_hobbie{
+    background: #BBBBBB;
+    align-items: center;
+    width: 85%;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    padding: 40px 0 40px 0 ;    
+}
+.titulo_hobbie{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 20px 0;
+    margin: 10px;
+}
+.hobbie_box{
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    height: 100px;
+    vertical-align: top;
+    margin: 10px 15px;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+.hobbie_line{
+    text-align: center;
+}
+
+/* seccion formacion academica */
+.caja_formacion_academica{
+    background: #FFDE59;
+    align-items: center;
+    width: 85%;
+    height: 420px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0 ;    
+}
+.titulo_formacion_academica{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 30px 0;
+    margin: 10px;
+}
+.formacion_academica_box{
+    background: white;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    height: 200px;
+    vertical-align: top;
+    margin: 5px 15px;
+    padding: 12px 0 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 15px;
+}
+.formacion_academica_line{
+    text-align: center;
+}
+.formacion_academica_img{
+    margin: 0 0 10% 0;
+}
+.formacion_academica_name, .formacion_academica_descripcion{
+    width: 280px;
+    text-align: left;
+    font-size: 13px;
+    padding: 0 0 15px 0;
+    line-height: 130%;
+}
+
+/* seccion experiencia profesional */
+/* Proyecto Encriptador de texto */
+.caja_encriptador, .caja_numero_secreto1, .caja_tarjeta_blog, .caja_numero_secreto2, .caja_barberia{
+    align-items: center;
+    width: 85%;
+    height: 375px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0 ;
+}
+.caja_encriptador{
+    height: 420px;
+}
+.caja_encriptador, .caja_tarjeta_blog, .caja_barberia{
+    background: #BBBBBB;
+}
+.caja_numero_secreto1, .caja_numero_secreto2{
+    background: #FFDE59;
+}
+.titulo_experiancia_profesional{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0 0 0;
+    margin: 10px;
+}
+.encriptador_line, .numero_secreto1_line, .tarjeta_blog_line, .numero_secreto2_line, .barberia_line{
+    display: inline-flex;
+    justify-content: center;
+    margin: 0 5%;
+    width: 90%;
+}
+.encriptador_line, .tarjeta_blog_line, .barberia_line{
+    flex-direction: row;
+}
+.numero_secreto1_line, .numero_secreto2_line{
+    flex-direction: row-reverse;
+}
+
+.encriptador_box, .numero_secreto1_box, .tarjeta_blog_box, .numero_secreto2_box, .barberia_box{
+    display: flex-box;
+    text-align: justify;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    vertical-align: top;
+    width: 40%;
+    margin: 10% 0;
+    padding: 0 0 10px 0;
+}
+.imagen_encriptado, .imagen_numero_secreto1, .imagen_tarjeta_blog, .imagen_numero_secreto2, .imagen_barberia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    padding: 20px 20px;
+}
+.img_encriptador, .img_numero_secreto1, .img_tarjeta_blog, .img_numero_secreto2, .img_barberia{
+    width: 100%;
+    height: 95%;
+}
+.tema_encriptador, .descripcion_encriptador, .tema_numero_secreto1, .descripcion_numero_secreto1, .tema_tarjeta_blog, .descripcion_tarjeta_blog, .tema_numero_secreto2, .descripcion_numero_secreto2, .tema_barberia, .descripcion_barberia{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2% 0 5% 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.tema_encriptador, .tema_numero_secreto1, .tema_tarjeta_blog, .tema_numero_secreto2, .tema_barberia{
+    font-size: 25px;
+}
+.repositorio_encriptador, .demo_encriptador, .repositorio_numero_secreto1, .demo_numero_secreto1, .repositorio_tarjeta_blog, .demo_tarjeta_blog, .repositorio_numero_secreto2, .demo_numero_secreto2, .repositorio_barberia, .demo_barberia{
+    text-align: center;
+    width: 35%;
+    margin: 15px 0 0 10px;
+    padding: 5% 0 ;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.repositorio_encriptador, .demo_encriptador, .repositorio_tarjeta_blog, .demo_tarjeta_blog, .repositorio_barberia, .demo_barberia{
+    background: #BBBBBB;
+}
+.repositorio_numero_secreto1, .demo_numero_secreto1, .repositorio_numero_secreto2, .demo_numero_secreto2{
+    background: #FFDE59;
+}
+.repositorio_encriptador:hover, .demo_encriptador:hover, .repositorio_tarjeta_blog:hover, .demo_tarjeta_blog:hover, .repositorio_barberia:hover, .demo_barberia:hover{
+    background: #FFDE59;
+    transform: scale(1.1);
+}
+.repositorio_numero_secreto1:hover, .demo_numero_secreto1:hover, .repositorio_numero_secreto2:hover, .demo_numero_secreto2:hover{
+    background: #BBBBBB;
+    transform: scale(1.1);
+}
+
+/* seccion de contactos */
+.caja_contacto{
+    background: #FFDE59;
+    align-items: center;
+    width: 85%;
+    height: 510px;
+    margin: 0 auto;
+    padding: 30px 0 30px 0 ;
+}
+.box_contacto{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 5%;
+    width: 90%;
+}
+.imagen_contacto{
+    width: auto;
+    height: 500px;
+}
+.caja_formulario{
+    display: inline-flex;
+    position: relative;
+    flex-direction: column;
+    width: 60%;
+    padding: 0 30px;
+}
+.titulo-contacto{
+    display: inline-flex;
+    width: 100%;
+    justify-content: left;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.pregunta, .nota{
+    display: inline-flex;
+    width: 100%;
+    padding: 5px 0;
+}
+.caja_nombre{
+    width: 100%;
+    margin: 7px 0 0 0;
+}
+.nombre_contacto, .input_nombre_contacto{
+    display: inline-flex;
+    font-size: 18px;
+    width: 97%;
+    padding: 3px;
+    background: white;
+    color: #aaaaaa;
+    outline:none;
+}
+.input_nombre_contacto{
+    border: none;
+    border-bottom: inset;
+    border-color: #aaaaaa;
+}
+.input_nombre_contacto:focus{
+    color: #000000;
+    border-color: #000000;
+}
+.enviar{
+    background: #BBBBBB;
+    text-align: center;
+    width: 30%;
+    margin: 5px 0 0 0;
+    padding: 3% 0 ;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: #FFDE59;
+    transform: scale(1.1);
+}
+/* pie de pagina */
+.caja_footer{
+    background: #BBBBBB;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    padding: 50px 0 30px 0 ;
+}
+legend{
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+}
+/* reponsivo tablet 768*/
+@media screen and (max-width:768px){
+    /* index */
+    .lista_menu_item{
+    display:none 
+    }
+    /* caja presentación */
+    .caja_titulo{
+        align-items: center;
+        width: 85%;
+        height: 250px;
+        position: relative;
+        margin: 0 auto;
+        padding: 20px 0 50px 0 ;
+    }
+    .titulo_bio{
+        width: 50%;
+        font-size: 22px;
+        font-weight: bold;
+        margin: 0px 0 20px 20px;
+        padding: 10px 0 0 0;
+    }
+    .subtitulo_bio{
+        width: 50%;
+        font-size: 16px;
+        margin: 0px 0 20px 20px;
+    }
+    .nav_accesos_redes{
+        width: 90%;
+        margin: 10px 5px;
+    }
+    .img_perfil{
+        display:block;
+        justify-items: center;
+        position:absolute;
+        width: 40%;
+        height: auto;
+        border-radius: 80px;
+    }
+    /* caja sobre mí */
+    .caja_sobre_mi{
+        height: 160px;
+        position: relative;
+        margin: 0 auto;
+        padding: 10px 0 0 0 ;
+    }
+    .sobre_mi{
+        width: 95%;
+        padding: 10px 20px;
+    }
+    .titulo_sobre_mi{
+        width: 60%;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 10px 0;
+    }
+    p1{
+        width: 70%;
+        font-size: 14px;
+    }
+    /* caja formacion academica */
+    .caja_formacion_academica{
+        height: 450px;
+    }
+    .formacion_academica_img img{
+        height: 150px;
+        width: 150px;
+        margin: 12px 0;
+    }
+    .formacion_academica_name, .formacion_academica_descripcion{
+        width: 185px;
+        text-align: left;
+        font-size: 14px;
+        padding: 0px 0px 5px 35px;
+        line-height: 130%;
+    }
+    /* caja proyectos */
+    /* proyecto encriptador de texto */
+    .caja_encriptador{
+        height: 470px;
+    }
+    .caja_numero_secreto1, .caja_tarjeta_blog, .caja_numero_secreto2, .caja_barberia{
+        height: 450px;
+    }
+    .encriptador_line, .numero_secreto1_line, .tarjeta_blog_line, .numero_secreto2_line, .barberia_line{
+        flex-direction:column;
+    }
+    .encriptador_box, .numero_secreto1_box, .tarjeta_blog_box, .numero_secreto2_box, .barberia_box{
+        flex-direction: column;
+        width: 100%;
+        margin: 0 10px;
+        text-align:right;
+    }
+    .imagen_encriptado, .imagen_numero_secreto1, .imagen_tarjeta_blog, .imagen_numero_secreto2, .imagen_barberia{
+        width: 90%;
+        padding: 20px 20px;
+    }
+    .img_encriptador, .img_numero_secreto1, .img_tarjeta_blog, .img_numero_secreto2, .img_barberia{
+        width: 100%;
+        height: 270px;
+    }
+    .tema_encriptador, .descripcion_encriptador, .tema_numero_secreto1, .descripcion_numero_secreto1, .tema_tarjeta_blog, .descripcion_tarjeta_blog, .tema_numero_secreto2, .descripcion_numero_secreto2, .tema_barberia, .descripcion_barberia{
+        justify-content: left;
+        width: 100%;
+        margin: 1% 0 1% 3%;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .tema_encriptador, .tema_numero_secreto1, .tema_tarjeta_blog, .tema_numero_secreto2, .tema_barberia{
+        font-size: 20px;
+    }
+    .botones_encriptador, .botones_numero_secreto1, .botones_tarjeta_blog, .botones_numero_secreto2, .botones_barberia{
+        text-align: left;
+    }
+    .repositorio_encriptador, .demo_encriptador, .repositorio_numero_secreto1, .demo_numero_secreto1, .repositorio_tarjeta_blog, .demo_tarjeta_blog, .repositorio_numero_secreto2, .demo_numero_secreto2, .repositorio_barberia, .demo_barberia{
+    width: 25%;
+    margin: 5px 0 0 5px;
+    padding: 3% 0 ;
+    }
+    /* caja contactos */
+    .imagen_contacto{
+        display:none
+    }
+    .caja_formulario{
+        width: 90%;
+        padding: 0;
+    }
+}
+/* reponsivo tablet 376px*/
+@media screen and (max-width:375px){
+    /* navegador header */
+    .img_logo{
+        height: 35px;
+    }
+    .nombre_menu{
+        font-size: 16px;
+    }
+    .lista_menu{
+        position: relative;
+        text-align: center;
+    }
+    /* caja presentacion */
+    .caja_titulo{
+        height: 570px;
+    }
+    .img_perfil{
+        position: relative;
+        width: 90%;
+        padding: 10px 30px 10px;
+        border-radius: 120px;
+    }
+    .titulo_bio, .subtitulo_bio{
+        width: 85%;
+    }
+    .accesos_a_redes{
+        margin:0;
+        width: 100%;
+        font-size: 16px;
+    }
+    /* caja sobre mi */
+    .caja_sobre_mi{
+        height: 250px;
+    }
+    .sobre_mi{
+        width: 85%;
+    }
+    /* caja skill */
+    .caja_skill{
+        height: 400px;
+    }
+    /* caja skill */
+    .caja_hobbie{
+        height: 400px;
+    }
+    /* caja formacion academica */
+    .caja_formacion_academica{
+        height: 1200px;
+    }
+    .formacion_academica_box{
+        margin: 0 0 180px 0;
+        width: 70%;
+    }
+    .formacion_academica_name, .formacion_academica_descripcion{
+        padding: 0 0 5px 10px;
+    }
+    /* caja experiencia profesional */
+    /* caja encriptador de texto */
+    .caja_encriptador{
+        height: 350px;
+    }
+    /* caja encriptador de texto, caja numero secreto 1, caja tarjeta blog, caja numero secreto 2, caja barberia */
+    .caja_numero_secreto1, .caja_tarjeta_blog, .caja_numero_secreto2, .caja_barberia{
+        height: 270px;
+    }
+    .imagen_encriptado img, .imagen_numero_secreto1 img, .imagen_tarjeta_blog img, .imagen_numero_secreto2 img, .imagen_barberia img{
+        height: 130px;
+    }
+    .tema_encriptador, .tema_numero_secreto1, .tema_tarjeta_blog, .tema_numero_secreto2, .tema_barberia{
+        width: 90%;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .repositorio_encriptador, .demo_encriptador, .repositorio_numero_secreto1, .demo_numero_secreto1, .repositorio_tarjeta_blog, .demo_tarjeta_blog, .repositorio_numero_secreto2, .demo_numero_secreto2, .repositorio_barberia, .demo_barberia{
+        width: 40%;
+    }
+    .caja_encriptador{
+        height: 350px;
+    }
+    /* caja contacto */
+    .caja_formulario{
+        width: 80%;
+        padding: 0;
+    }
+    .enviar{
+        width: 60%;
+    }
+}
